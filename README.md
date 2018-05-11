@@ -16,13 +16,13 @@ This is a Docker image for test. This image include a Node.JS application.
 You will need clone this repository locally and build the image before test it.
 
 ```
-$ docker build -t <your username>/node-web-app .
+$ docker build -t <your username>/node.app .
 ```
 
 After build you can run the image
 
 ```
-docker run -p 49160:8080 -d <your username>/node-web-app
+docker run -p 49160:8080 -d <your username>/node.app
 ```
 
 ## Running the tests
@@ -34,7 +34,7 @@ $ docker ps
 
 # Example
 ID            IMAGE                                COMMAND    ...   PORTS
-ecce33b30ebf  <your username>/node-web-app:latest  npm start  ...   49160->8080
+ecce33b30ebf  <your username>/node.app:latest  npm start  ...   49160->8080
 ```
 
 Now you can call your app using curl (install if needed via: sudo apt-get install curl):
