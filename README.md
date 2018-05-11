@@ -16,13 +16,13 @@ This is a Docker image for test. This image include a Node.JS application.
 You will need clone this repository locally and build the image before test it.
 
 ```
-$ docker build -t <your username>/node.app .
+$ docker build -t node.app .
 ```
 
 After build you can run the image
 
 ```
-docker run -p 49160:8080 -d <your username>/node.app
+docker run -p 49160:8080 -d node.app
 ```
 
 ## Running the tests
