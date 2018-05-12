@@ -34,7 +34,7 @@ $ docker ps
 
 # Example
 ID            IMAGE                                COMMAND    ...   PORTS
-ecce33b30ebf  <your username>/node.app:latest  npm start  ...   49160->8080
+ecce33b30ebf  node.app:latest  npm start  ...   49160->8080
 ```
 
 Now you can call your app using curl (install if needed via: sudo apt-get install curl):
